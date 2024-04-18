@@ -1,0 +1,27 @@
+body{display: flex; justify-content: space-around; padding: 30px;flex-wrap: wrap;}
+.dog img{width: 350px;}
+.dog{width: 350px;}
+h2{font-weight: 700; font-size: 25px; padding: 25px 25px 10px;}
+p{font-size: 18px; padding: 10px 25px 10px;}
+.txt{display: flex; justify-content: space-between; padding: 10px 25px 10px;}
+h3{text-transform: uppercase;}
+h4{font-weight: 600; font-size: 20px;}
+h5{text-align: center; font-size: 18px;padding: 3rem 0 25px;}
+h6{margin-top: 15px;}
+.prof{display: flex;}
+span img{width: 90px;border-radius: 50%;}
+.dog2{width: 700px; height: 300px;}
+.line{background-color: rgb(167, 166, 166);height: 3px; width: 640px; margin: 15px auto;}
+.wedn img{width: 350px;}
+.wedn{text-align: center;width: 350px;}
+.icon{font-size: 25px; display: flex; justify-content: space-evenly; margin: 20px 15px 20px 15px;}
+.line2{background-color: rgb(5, 5, 90); height: 4px; width: 320px; margin: auto;}
+.btn1{background-color: rgb(5, 5, 90); color: white; padding: 8px 15px 8px 15px; border-width: 1px;}
+.btn2{background-color: white; color: rgb(5, 5, 90); padding: 8px 18px 8px 18px; border-width: 1px;}
+.buttons{margin: 20px 0 30px 0;}
+.dog,.dog2,.wedn{box-shadow: 0 0 8px 8px rgb(209, 209, 209);}
+@media only screen and (max-width: 1120px){
+    .dog,.dog2,.wedn{width: 350px;margin: 20px;}
+    .line{width: 330px;}
+
+}
